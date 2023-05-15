@@ -1,0 +1,21 @@
+*{
+    max-height: 90px;
+    background-color: hsl(230, 33%, 21%);
+    color: #FFFFFE;
+}
+
+.navbar{
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+button{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    button {
+        font-size: 12px;
+    }
+  }

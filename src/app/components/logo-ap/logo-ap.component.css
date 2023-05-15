@@ -1,0 +1,12 @@
+img{
+    max-width: 114px;
+    max-height: 70px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 94px;
+        height: 50px;
+    }
+  }

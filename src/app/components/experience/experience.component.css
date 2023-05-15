@@ -1,0 +1,82 @@
+.container {
+   border-radius: .5rem;
+   font-size: 16px;
+}
+
+.card {
+   min-height: 120px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+   transition: box-shadow 1s ease;
+}
+
+.card:hover {
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.add-button, .edit-button {
+   display: flex;
+   align-items: center;
+   margin: 0;
+   font-size: 1.1rem;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+.add-button:hover {
+   background-color: #F5F6FA;
+}
+
+.add-button i {
+   margin-right: 0.5rem;
+}
+
+
+
+.title {
+   font-size: 16px;
+   font-weight: 500;
+   margin: 0;
+}
+
+.subtitle {
+   font-size: 14px;
+   color: rgb(155, 153, 153);
+   margin-bottom: 3px;
+}
+
+.body{
+   text-align: justify;
+}
+
+.logo {
+   padding: 0;
+}
+
+.logo img {
+   max-width: 50%;
+   max-height: 50%;
+}
+
+@media screen and (max-width: 768px) {
+   
+   div{
+      text-align: center;
+   }
+
+   .logo img {
+      max-width: 20%;
+      max-height: 20%;
+      margin-bottom: 15px;
+      margin-top: 15px;
+   }
+
+   .edit-button p{
+      display: none;
+   }
+
+   .add-button p{
+      font-size: 16px;
+   }
+
+   
+ }

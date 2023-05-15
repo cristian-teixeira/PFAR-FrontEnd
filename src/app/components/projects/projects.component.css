@@ -1,0 +1,60 @@
+.container {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button p {
+  font-weight: 500;
+}
+
+.card {
+  min-height: 450px;
+  max-width: 280px;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.card .img-container{
+  min-height: 238px;
+  min-width: 238px;
+}
+
+.card p{
+  font-size: 14px;
+  color: rgb(133, 133, 133);
+}
+
+
+
+
+a {
+  font-weight: 600;
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  max-height: 41px;
+  margin: 0;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.add-button:hover {
+  background-color: #F5F6FA;
+}
+
+.add-button i {
+  margin-right: 0.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+   
+  .add-button p{
+     font-size: 16px;
+  }  
+}

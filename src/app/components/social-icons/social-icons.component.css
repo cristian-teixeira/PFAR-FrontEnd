@@ -1,0 +1,9 @@
+.img-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.img-icon:hover {
+    cursor: pointer;
+}
+
